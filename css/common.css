@@ -1,0 +1,20 @@
+* { margin:0; padding:0; }
+
+/* 목록 불릿 없애기 */
+ol,ul { list-style:none; }
+
+/* 하이퍼링크 설정 */
+a:link { text-decoration:none; color:#000; }
+a:visited { text-decoration:none; color:#000; }
+a:hover { text-decoration:none; color:#000; }
+a:active { text-decoration:none; color:#000; }
+
+body { 
+		cursor: url(../images/mouse.png), auto;}
+		
+		
+ /* #cursor{
+
+	height:600px;
+	background:pink;
+} */
