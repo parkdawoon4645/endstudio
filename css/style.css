@@ -515,7 +515,7 @@ padding-top: 2%;}
 .gallery1{font-family: 'Cormorant SC', serif; font-weight: 100; font-size: 58px; text-align: center; background: url(../images/line7.png) no-repeat center 50%; padding: 1% 0;}
 .galnav{margin: 0 1%; padding: 2% 0;}
 .galnav li{ overflow: hidden; 
-    width: 267px; height: 267px; 
+    width: 267px;
     float: left; margin: 1% 1%;}
 .galnav li:nth-child(4){margin-right: 0;}
 .galnav li:nth-child(8){margin-right: 0;}
