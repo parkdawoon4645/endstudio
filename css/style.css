@@ -186,13 +186,14 @@ background: url(../images/round2.png) no-repeat top center; }
     .round{display: none;}
     .box2{
         
-        width: 440px; margin:0 auto;
+        width: 100%; margin:0 auto;
        
         text-align: center; display: block; overflow: hidden; 
         padding: 5% 0%;
     }
         .box2text{font-size: 18px; font-weight: bold;}
-        .brandright2{width: 413px; float: right;animation: main4 13s linear infinite; 
+        .brandright2{width: 100%; text-align: center;
+            animation: main4 13s linear infinite; 
             background:url(../images/mbanner1.png) no-repeat center top; height: 521px; margin-top: 5%;}
             @keyframes main4{
                 0%{background:url(../images/mbrand1.png) no-repeat center top;}
@@ -206,21 +207,21 @@ background: url(../images/round2.png) no-repeat top center; }
          
 
 }
-
-
-
 /* studio pc */
 .studio{width: 100%;}
 .studio_inner{width: 1200px;overflow: hidden;  margin: 0 auto;}
 h1{font-family: 'Cormorant SC', serif; font-weight: 100; font-size: 65px; text-align: center; background: url(../images/line1.png) no-repeat center 50%;}
-.text2{padding-top: 30px; text-align: center;}
-.room{height: 590px; padding-top: 10%; }
+.text2{padding-top: 20px; text-align: center;}
+.room{height: 590px; padding-top: 2%; }
 .room2{display: none;}
 .roomimg{float: left;}
 .roomtext{float: right; padding: 5% 8%;}
-.text3{ font-weight: 600;  padding: 5% 0%; }
+.text3{ font-weight: 600;  padding: 5% 0%;}
 .btn{border: 1px solid #717171; padding: 2% 5%; border-radius: 10px;}
-.roomtext2{float: left; padding: 5% 7%;}
+.roomtext2{float: left; 
+    /* padding: 5% 7%; */
+    padding-top:3%;
+}
 .roomimg2{float: right;}
 .roomimg3{float: left;}
 .roomtext3{float: right; padding: 4% 2%;}
@@ -239,7 +240,7 @@ h1{font-family: 'Cormorant SC', serif; font-weight: 100; font-size: 65px; text-a
     .roomtext{text-align: center; width: 90%; padding: 3% 5%;}
     .roomimg{text-align: center; width: 90%;
      padding: 3% 5%;}
-    .roomtext2{text-align: center;  width: 90%;padding: 3% 5%;}
+    .roomtext2{text-align: center;  width: 90%;padding: 15% 5% 5% 5%;}
     .roomimg2{text-align: center; width: 90%;
         padding: 3% 5%;}
     .roomtext3{text-align: center;  width: 90%;padding: 3% 5%;}
@@ -508,6 +509,8 @@ padding-top: 2%;}
 
 
 
+
+
 /* gallery */
 .gallery{width: 100%;}
 .gallery_inner{width: 1200px;  overflow: hidden;
@@ -515,8 +518,9 @@ padding-top: 2%;}
 .gallery1{font-family: 'Cormorant SC', serif; font-weight: 100; font-size: 58px; text-align: center; background: url(../images/line7.png) no-repeat center 50%; padding: 1% 0;}
 .galnav{margin: 0 1%; padding: 2% 0;}
 .galnav li{ overflow: hidden; 
-    width: 267px;
+    width: 267px;  
     float: left; margin: 1% 1%;}
+    /* height: 267px; */
 .galnav li:nth-child(4){margin-right: 0;}
 .galnav li:nth-child(8){margin-right: 0;}
 .galnav li:hover img{transform: scale(1.2,1.2); transition: all 1s;}
@@ -586,3 +590,5 @@ padding-top: 2%;}
 /* aos효과 */
 .left{float:left;}
 .right{float:right;}
+
+.rightheight{height: 397.44px;}
